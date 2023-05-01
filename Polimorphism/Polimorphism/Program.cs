@@ -23,6 +23,7 @@ namespace Polimorphism
 
             Car car = new Car(1,"model");
             car.Drive();
+            car.Stop();
             Console.WriteLine();
             //Car tesla1 = new Tesla(1,"Tesla",100);
             //tesla1.Drive();
