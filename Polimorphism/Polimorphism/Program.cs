@@ -28,17 +28,17 @@ namespace Polimorphism
             //tesla1.Drive();
             //tesla1.Stop();
             Console.WriteLine();
-            Car telax = new TeslaX(1,12000,"teslax",80);
-            telax.Drive();
-            telax.Stop();
+            car = new TeslaX(1,12000,"teslax",80);
+            car.Drive();
+            car.Stop();
             Console.WriteLine();
-            Car expensivecar = new ExpensiveCar(1, "expensivecar", 70);
-            expensivecar.Drive();
-            expensivecar.Stop();
+            car = new ExpensiveCar(1, "expensivecar", 70);
+            car.Drive();
+            car.Stop();
             Console.WriteLine();
-            Car teslaY = new TeslaY(1, 12000, "teslay", 50);
-            teslaY.Drive();
-            teslaY.Stop();
+            car = new TeslaY(1, 12000, "teslay", 50);
+            car.Drive();
+            car.Stop();
 
 
             Console.ReadLine();
