@@ -10,6 +10,38 @@ namespace Polimorphism
     {
         static void Main(string[] args)
         {
+            //TeslaX teslax = new TeslaX(1, 2, "teslax", 80);
+            //teslax.Drive();
+            //Console.WriteLine();
+            //Tesla tesla = new Tesla(1, "tesla", 70);
+            //tesla.Drive();
+            //Console.WriteLine();
+            //TeslaY teslay = new TeslaY(1, 20000, "teslay", 100);
+            //teslay.Drive();
+
+            Console.WriteLine("------------------------------------");
+
+            Car car = new Car(1,"model");
+            car.Drive();
+            Console.WriteLine();
+            //Car tesla1 = new Tesla(1,"Tesla",100);
+            //tesla1.Drive();
+            //tesla1.Stop();
+            Console.WriteLine();
+            Car telax = new TeslaX(1,12000,"teslax",80);
+            telax.Drive();
+            telax.Stop();
+            Console.WriteLine();
+            Car expensivecar = new ExpensiveCar(1, "expensivecar", 70);
+            expensivecar.Drive();
+            expensivecar.Stop();
+            Console.WriteLine();
+            Car teslaY = new TeslaY(1, 12000, "teslay", 50);
+            teslaY.Drive();
+            teslaY.Stop();
+
+
+            Console.ReadLine();
         }
     }
 }
